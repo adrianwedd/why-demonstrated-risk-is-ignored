@@ -11,6 +11,12 @@
 
   --measure: 72ch;
   --measure-wide: 80ch;
+
+  /* Fonts: gentle, readable, no external fetch */
+  --font-serif: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Charter, Georgia,
+    Cambria, "Times New Roman", Times, serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
 @media (prefers-color-scheme: light) {
