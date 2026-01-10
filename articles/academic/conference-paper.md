@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Demonstrated Risk Without Authority: Structural Inhibitors to Acting on Proven Risk
 *Conference submission draft derived from canonical v1.0 (read:
 `../canonical/why-demonstrated-risk-is-ignored__v1.0.html`; source:

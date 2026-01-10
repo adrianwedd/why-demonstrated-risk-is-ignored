@@ -13,7 +13,7 @@ is the source of truth for the argument.
 ## Start Here
 
 - **Canonical essay (fully cited):**  
-  [Read v1.0](articles/canonical/why-demonstrated-risk-is-ignored__v1.0.html)
+  [Read v1.1](articles/canonical/why-demonstrated-risk-is-ignored__v1.1.html)
 
 - **Public edition (citation-light, same structure):**  
   [Read the public edition](articles/public/why-demonstrated-risk-is-ignored__public.html)
@@ -36,7 +36,7 @@ is the source of truth for the argument.
 
 Metadata lives in `CITATION.cff`. Suggested citation:
 
-> Wedd, A. (v1.0). *Why Demonstrated Risk Is Ignored in Large Organisations*. CC BY 4.0.
+> Wedd, A. (v1.1). *Why Demonstrated Risk Is Ignored in Large Organisations*. CC BY 4.0.
 
 ## Versions
 
@@ -44,3 +44,7 @@ Metadata lives in `CITATION.cff`. Suggested citation:
   argument is edited directly.
 - **Derived** artefacts (`articles/public/`, `articles/academic/`) are generated for audience/format
   needs and must declare the canonical version they were derived from (e.g. “Derived from v1.0”).
+
+Current canonical: `articles/canonical/why-demonstrated-risk-is-ignored__v1.1.md`
+(Pages: `articles/canonical/why-demonstrated-risk-is-ignored__v1.1.html`).
+Previous canonical: `articles/canonical/why-demonstrated-risk-is-ignored__v1.0.md`.

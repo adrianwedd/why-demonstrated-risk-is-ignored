@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # PhD Research Proposal: Engineering Truth in Socio-Technical Systems
 *Draft derived from canonical v1.0 (read:
 `../canonical/why-demonstrated-risk-is-ignored__v1.0.html`; source:

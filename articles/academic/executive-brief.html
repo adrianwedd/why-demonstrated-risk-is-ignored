@@ -1,0 +1,9 @@
+---
+layout: default
+title: Executive Brief
+---
+
+{% capture doc %}
+{% include_relative executive-brief.md %}
+{% endcapture %}
+{{ doc | markdownify }}

@@ -12,7 +12,7 @@ whether truth moves.
 
 ## Read
 - Landing page (GitHub Pages): `index.md`
-- Canonical (v1.0, source of truth): `articles/canonical/why-demonstrated-risk-is-ignored__v1.0.md`
+- Canonical (v1.1, source of truth): `articles/canonical/why-demonstrated-risk-is-ignored__v1.1.md`
 - Public edition (derived from v1.0): `articles/public/why-demonstrated-risk-is-ignored__public.md`
 - Executive brief (derived from v1.0): `articles/academic/executive-brief.md`
 - Conference submission draft (derived from v1.0): `articles/academic/conference-paper.md`
@@ -21,7 +21,7 @@ whether truth moves.
   (also: `bibliography/bibliography.bib`, `bibliography/bibliography.ris`)
 
 Note: on GitHub Pages, Markdown pages render to the same path with `.html`
-(e.g. `articles/canonical/why-demonstrated-risk-is-ignored__v1.0.html`).
+(e.g. `articles/canonical/why-demonstrated-risk-is-ignored__v1.1.html`).
 
 For the canonical essay and APA bibliography, this repo keeps the `.md` files as
 human-readable source of truth and uses small `.html` wrapper pages (Jekyll +
@@ -58,7 +58,7 @@ The canonical essay is structured as a design analysis:
 ## How to cite
 Metadata is in `CITATION.cff` (CC BY 4.0; see `LICENSE`). Suggested citation:
 
-> Wedd, Adrian. (v1.0). *Why Demonstrated Risk Is Ignored in Large Organisations*.
+> Wedd, Adrian. (v1.1). *Why Demonstrated Risk Is Ignored in Large Organisations*.
 > CC BY 4.0.
 
 ## Contributing

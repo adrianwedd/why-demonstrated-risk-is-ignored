@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Executive Brief: Why Demonstrated Risk Is Ignored (and How to Fix It)
 *One-page brief derived from canonical v1.0 (read:
 `../canonical/why-demonstrated-risk-is-ignored__v1.0.html`; source:

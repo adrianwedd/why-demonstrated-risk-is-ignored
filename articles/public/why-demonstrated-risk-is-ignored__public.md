@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Why Demonstrated Risk Is Ignored in Large Organisations
 *Public edition derived from canonical v1.0 (read:
 `../canonical/why-demonstrated-risk-is-ignored__v1.0.html`; source:
