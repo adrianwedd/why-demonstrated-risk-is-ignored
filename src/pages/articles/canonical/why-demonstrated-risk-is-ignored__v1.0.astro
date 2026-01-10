@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageLinks from "../../../components/PageLinks.astro";
 import { renderMarkdownFromRepoFile } from "../../../lib/render-markdown";
 
 const { html } = renderMarkdownFromRepoFile(
@@ -9,4 +10,6 @@ const { html } = renderMarkdownFromRepoFile(
 
 <BaseLayout title="Why Demonstrated Risk Is Ignored (v1.0)">
   <article set:html={html} />
+  <hr />
+  <PageLinks />
 </BaseLayout>

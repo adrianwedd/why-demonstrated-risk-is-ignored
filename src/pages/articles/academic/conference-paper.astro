@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageLinks from "../../../components/PageLinks.astro";
 import { renderMarkdownFromRepoFile } from "../../../lib/render-markdown";
 
 const { html } = renderMarkdownFromRepoFile("articles/academic/conference-paper.md");
@@ -7,4 +8,6 @@ const { html } = renderMarkdownFromRepoFile("articles/academic/conference-paper.
 
 <BaseLayout title="Conference submission draft">
   <article set:html={html} />
+  <hr />
+  <PageLinks />
 </BaseLayout>

@@ -1,0 +1,26 @@
+---
+const base = import.meta.env.BASE_URL;
+---
+
+<section aria-label="Site links">
+  <h2>Links</h2>
+  <ul>
+    <li><a href={base}>Home (canonical v1.1)</a></li>
+    <li>
+      <a href={`${base}articles/canonical/why-demonstrated-risk-is-ignored__v1.0.html`}>Canonical v1.0</a>
+    </li>
+    <li>
+      <a href={`${base}bibliography/bibliography_APA.html`}>Bibliography (APA)</a>
+      &nbsp;·&nbsp;
+      <a href={`${base}bibliography/bibliography.bib`}>BibTeX</a>
+      &nbsp;·&nbsp;
+      <a href={`${base}bibliography/bibliography.ris`}>RIS</a>
+    </li>
+    <li>
+      <a href={`${base}articles/academic/conference-paper.html`}>Conference submission (draft)</a>
+    </li>
+    <li>
+      <a href={`${base}articles/academic/phd-proposal.html`}>PhD proposal (draft)</a>
+    </li>
+  </ul>
+</section>

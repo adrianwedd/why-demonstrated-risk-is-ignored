@@ -1,46 +1,18 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import PageLinks from "../components/PageLinks.astro";
+import { renderMarkdownFromRepoFile } from "../lib/render-markdown";
+
+const { html } = renderMarkdownFromRepoFile(
+  "articles/canonical/why-demonstrated-risk-is-ignored__v1.1.md"
+);
 ---
 
 <BaseLayout
   title="Why Demonstrated Risk Is Ignored"
-  description="Structural reasons organisations ignore demonstrated risk — and how to fix them."
+  description="Why demonstrated risk is ignored in large organisations — and how to fix that."
 >
-  <h1>Why Demonstrated Risk Is Ignored</h1>
-  <p>
-    A text-first publication: canonical essay, derived artefacts, and bibliographies.
-    The central experience is reading.
-  </p>
-
-  <h2>Read</h2>
-  <ul>
-    <li>
-      <a href={`${import.meta.env.BASE_URL}articles/canonical/why-demonstrated-risk-is-ignored__v1.1.html`}>Canonical (v1.1)</a>
-    </li>
-    <li>
-      <a href={`${import.meta.env.BASE_URL}articles/academic/conference-paper.html`}>Conference submission (draft)</a>
-    </li>
-    <li>
-      <a href={`${import.meta.env.BASE_URL}articles/academic/phd-proposal.html`}>PhD proposal (draft)</a>
-    </li>
-    <li>
-      <a href={`${import.meta.env.BASE_URL}bibliography/bibliography_APA.html`}>Bibliography (APA)</a>
-      &nbsp;·&nbsp;
-      <a href={`${import.meta.env.BASE_URL}bibliography/bibliography.bib`}>BibTeX</a>
-      &nbsp;·&nbsp;
-      <a href={`${import.meta.env.BASE_URL}bibliography/bibliography.ris`}>RIS</a>
-    </li>
-  </ul>
-
-  <h2>How to cite</h2>
-  <p>
-    Suggested citation: Wedd, Adrian. (v1.1). <em>Why Demonstrated Risk Is Ignored in Large Organisations</em>.
-    CC BY 4.0. See <code>CITATION.cff</code> for metadata.
-  </p>
-
-  <h2>Versions</h2>
-  <p>
-    Canonical files live in <code>articles/canonical/</code> and are versioned as <code>__vMAJOR.MINOR</code>.
-    Derived artefacts must declare which canonical version they were derived from.
-  </p>
+  <article set:html={html} />
+  <hr />
+  <PageLinks />
 </BaseLayout>
