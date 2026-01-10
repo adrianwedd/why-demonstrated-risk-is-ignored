@@ -44,7 +44,7 @@ This project is not:
 - a whistleblowing dossier
 - a brand vehicle
 - an interface experiment
-- an aesthetic showcase
+- a design showcase
 
 This does not mean emotion is forbidden.  
 It means the work must remain **structural**, not vindictive.
@@ -95,6 +95,15 @@ The site must be comfortable to read for long periods:
 
 Accessibility overrides cleverness.
 
+### 3.5 Simplicity With Beauty
+The site should be visually quiet but not austere:
+- generous line-height and comfortable measure
+- a calm palette (avoid pure white and pure black)
+- a clear typographic hierarchy
+- minimal chrome; no “design noise”
+
+Beauty here is **restraint**: polish through spacing, typography, and clarity.
+
 ### 3.5 No Spectacle
 No animations that announce themselves.
 No “hero” visuals.
@@ -120,12 +129,12 @@ The repository must remain easy to cite and reuse:
 
 These decisions are settled unless the charter is explicitly updated.
 
-- Static site via **GitHub Pages** (Jekyll/Minima acceptable)
+- Static site via **GitHub Pages** built with **Astro** (static output)
 - Canonical content authored in **Markdown**
 - Repository structure separates canonical vs derived artefacts
-- No heavy client-side frameworks
+- No heavy client-side frameworks or runtime app shells
 - No third-party tracking or analytics by default
-- Keep dependencies minimal; prefer plain Markdown and simple config
+- Keep dependencies minimal; prefer plain Markdown and a small, boring CSS layer
 
 ## 5. Versioning and Drift Control
 
@@ -145,7 +154,22 @@ When there is conflict:
 - Readability wins over aesthetics.
 - Calm wins over cleverness.
 
-## 6. Authority and Delegation
+## 6. UI and Content Boundaries
+
+Rules:
+- The site exists to serve reading, not to exhibit UI.
+- No client-side state for its own sake.
+- No novelty backgrounds or motion. If something moves, it must also get out of
+  the way (respect `prefers-reduced-motion`).
+- Prefer system fonts. Avoid external font fetches by default.
+
+Practical guidance:
+- Keep CSS token-driven and small.
+- Keep page chrome minimal (few links; predictable placement).
+- Treat the canonical essay as the primary experience; everything else is
+  navigation, citation, and context.
+
+## 7. Authority and Delegation
 
 This document defines intent and limits.
 
@@ -156,7 +180,7 @@ The relationship is explicit:
 - **Commits implement.**
 - **This charter governs.**
 
-## 7. How to Use This Document
+## 8. How to Use This Document
 
 - Read it before starting work.
 - Re-read it when something feels off.
@@ -166,7 +190,7 @@ The relationship is explicit:
 If the site becomes busy, self-conscious, or sales-like,
 this document has been ignored.
 
-## 8. Closing
+## 9. Closing
 
 This project does not promise organisational reform.
 It does not promise that truth will always win.

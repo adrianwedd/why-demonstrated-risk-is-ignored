@@ -13,7 +13,10 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background:
+    radial-gradient(1200px 700px at 50% -10%, rgba(138, 199, 217, 0.08), transparent 60%),
+    radial-gradient(900px 600px at 20% 0%, rgba(233, 238, 246, 0.05), transparent 55%),
+    var(--bg);
   color: var(--fg);
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
@@ -40,7 +43,7 @@ a:focus-visible {
 }
 
 main {
-  padding: 2.5rem 1.25rem 2rem;
+  padding: 2.75rem 1.25rem 2.25rem;
 }
 
 .container {
@@ -49,7 +52,10 @@ main {
 }
 
 .surface {
-  background: transparent;
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: 10px;
+  padding: 1.25rem 1.25rem;
 }
 
 header {
@@ -64,6 +70,8 @@ header nav {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--rule);
 }
 
 header nav a {
@@ -76,22 +84,22 @@ header nav a:hover {
 
 h1 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.25;
   margin: 0 0 1rem;
 }
 
 h2 {
-  font-size: 1.4rem;
-  font-weight: 600;
-  line-height: 1.3;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.35;
   margin: 2.25rem 0 0.75rem;
 }
 
 h3 {
-  font-size: 1.15rem;
-  font-weight: 600;
-  line-height: 1.35;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.4;
   margin: 1.75rem 0 0.5rem;
 }
 
@@ -163,6 +171,10 @@ footer .container {
   * {
     background: white !important;
     color: black !important;
+  }
+  header,
+  footer {
+    display: none !important;
   }
   a {
     color: black !important;

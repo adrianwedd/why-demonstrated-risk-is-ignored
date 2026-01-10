@@ -6,9 +6,11 @@
   --link: #8ac7d9;
   --rule: rgba(233, 238, 246, 0.12);
   --selection: rgba(138, 199, 217, 0.25);
-  --surface: rgba(7, 10, 15, 0.92);
+  --surface: rgba(7, 10, 15, 0.88);
+  --surface-border: rgba(233, 238, 246, 0.10);
 
-  --measure: 74ch;
+  --measure: 72ch;
+  --measure-wide: 80ch;
 }
 
 @media (prefers-color-scheme: light) {
@@ -20,6 +22,7 @@
     --link: #0b6a88;
     --rule: rgba(21, 24, 30, 0.12);
     --selection: rgba(11, 106, 136, 0.18);
-    --surface: rgba(244, 241, 234, 0.92);
+    --surface: rgba(244, 241, 234, 0.90);
+    --surface-border: rgba(21, 24, 30, 0.10);
   }
 }
