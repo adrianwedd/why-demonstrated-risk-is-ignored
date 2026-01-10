@@ -1,0 +1,25 @@
+:root {
+  /* Dark-first, calm reading surface */
+  --bg: #070a0f;
+  --fg: #e9eef6;
+  --muted: #a8b3c2;
+  --link: #8ac7d9;
+  --rule: rgba(233, 238, 246, 0.12);
+  --selection: rgba(138, 199, 217, 0.25);
+  --surface: rgba(7, 10, 15, 0.92);
+
+  --measure: 74ch;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Keep “calm” in light mode too; avoid pure white */
+    --bg: #f4f1ea;
+    --fg: #15181e;
+    --muted: #4b5563;
+    --link: #0b6a88;
+    --rule: rgba(21, 24, 30, 0.12);
+    --selection: rgba(11, 106, 136, 0.18);
+    --surface: rgba(244, 241, 234, 0.92);
+  }
+}

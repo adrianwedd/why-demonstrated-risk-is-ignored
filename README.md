@@ -65,14 +65,14 @@ Metadata is in `CITATION.cff` (CC BY 4.0; see `LICENSE`). Suggested citation:
 This repo optimises for readability, stability, and citability.
 Contributor guidance lives in `AGENTS.md`.
 
-## Local preview (optional)
-Uses the GitHub Pages-supported Jekyll toolchain:
-- Prereqs: a recent Ruby (recommended: Ruby 3.x via `rbenv`/`asdf`) and build tools
-  (macOS: `xcode-select --install`).
-- Install gems locally: `bundle config set --local path vendor/bundle` then `bundle install`
-- Preview: `bundle exec jekyll serve --livereload`
-- Build once: `bundle exec jekyll build`
+## Local preview
+This site is built with Astro (no heavy client-side framework; text-first pages).
+
+- Install: `npm ci`
+- Dev server: `npm run dev`
+- Build: `npm run build`
+- Optional link check (after build): `npm run check:links`
 
 ## GitHub Pages settings
-- Settings → Pages → “Deploy from a branch”
-- Branch `main`, folder `/ (root)`
+- Settings → Pages → **Build and deployment** → “GitHub Actions”
+- The workflow is in `.github/workflows/pages.yml`

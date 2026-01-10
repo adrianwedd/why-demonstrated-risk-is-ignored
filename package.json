@@ -1,0 +1,15 @@
+{
+  "name": "why-demonstrated-risk-is-ignored",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check:links": "node scripts/check-links.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.16.6",
+    "marked": "^17.0.1"
+  }
+}

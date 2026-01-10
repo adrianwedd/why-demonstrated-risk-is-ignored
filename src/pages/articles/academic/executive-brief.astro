@@ -1,0 +1,10 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { renderMarkdownFromRepoFile } from "../../../lib/render-markdown";
+
+const { html } = renderMarkdownFromRepoFile("articles/academic/executive-brief.md");
+---
+
+<BaseLayout title="Executive brief">
+  <article set:html={html} />
+</BaseLayout>

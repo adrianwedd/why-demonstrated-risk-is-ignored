@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { renderMarkdownFromRepoFile } from "../../../lib/render-markdown";
+
+const { html } = renderMarkdownFromRepoFile(
+  "articles/canonical/why-demonstrated-risk-is-ignored__v1.1.md"
+);
+---
+
+<BaseLayout title="Why Demonstrated Risk Is Ignored (v1.1)">
+  <article set:html={html} />
+</BaseLayout>

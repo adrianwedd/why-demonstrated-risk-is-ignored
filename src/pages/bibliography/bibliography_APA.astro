@@ -1,0 +1,10 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { renderMarkdownFromRepoFile } from "../../lib/render-markdown";
+
+const { html } = renderMarkdownFromRepoFile("bibliography/bibliography_APA.md");
+---
+
+<BaseLayout title="Bibliography (APA)">
+  <article set:html={html} />
+</BaseLayout>

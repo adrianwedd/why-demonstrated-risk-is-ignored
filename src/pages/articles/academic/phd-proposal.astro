@@ -1,0 +1,10 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { renderMarkdownFromRepoFile } from "../../../lib/render-markdown";
+
+const { html } = renderMarkdownFromRepoFile("articles/academic/phd-proposal.md");
+---
+
+<BaseLayout title="PhD proposal draft">
+  <article set:html={html} />
+</BaseLayout>
