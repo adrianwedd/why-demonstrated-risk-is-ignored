@@ -1,78 +1,113 @@
 # Why Demonstrated Risk Is Ignored
 
-This repository is a text-first publishing apparatus for the canonical essay:
+A research portfolio exploring why large organisations fail to act on known, demonstrated risks — and what structural interventions might fix that.
 
-**Why Demonstrated Risk Is Ignored in Large Organisations — and How to Fix That**
+## What This Is
 
-The central claim (developed and cited in the canonical version) is that large
-organisations rarely fail because risk is unknown; they fail because **known,
-demonstrated risks are structurally difficult to act on**. The work treats this
-as a systems problem: incentives, authority, and accountability determine
-whether truth moves.
+This repository contains:
 
-## Read
-- Landing page (GitHub Pages): `index.md`
-- Canonical (v1.1, source of truth): `articles/canonical/why-demonstrated-risk-is-ignored__v1.1.md`
-- Public edition (derived from v1.0): `articles/public/why-demonstrated-risk-is-ignored__public.md`
-- Executive brief (derived from v1.0): `articles/academic/executive-brief.md`
-- Conference submission draft (derived from v1.0): `articles/academic/conference-paper.md`
-- PhD proposal draft (derived from v1.0): `articles/academic/phd-proposal.md`
-- Bibliography: `bibliography/bibliography_APA.md`
-  (also: `bibliography/bibliography.bib`, `bibliography/bibliography.ris`)
+1. **A canonical essay** articulating the core thesis
+2. **A structured research backlog** operationalizing the concepts for empirical work
+3. **Documentation of agent-assisted execution** as a meta-artifact
 
-Note: on GitHub Pages, Markdown pages render to the same path with `.html`
-(e.g. `articles/canonical/why-demonstrated-risk-is-ignored__v1.1.html`).
+The central claim: large organisations rarely fail because risk is unknown. They fail because **known, demonstrated risks are structurally difficult to act on**. This is a systems problem — incentives, authority, and accountability determine whether truth moves.
 
-For the canonical essay and APA bibliography, this repo keeps the `.md` files as
-human-readable source of truth and uses small `.html` wrapper pages (Jekyll +
-Minima) to render them on GitHub Pages.
+## The Essay
 
-## What’s In The Canonical Essay
-The canonical essay is structured as a design analysis:
-- The myth that “evidence leads to action”
-- Four recurring structural inhibitors (authority, career risk, compliance
-  substitution, diffuse accountability)
-- Why demonstration can reduce action (liability and incentive effects)
-- Why this is not primarily a culture problem
-- Interventions that make truth move (mandates, protected discovery, empiricism,
-  no-ignore artefacts, explicit risk ownership)
-- Moral injury and epistemic harm as predictable outcomes of forced inaction
+The canonical essay is a design analysis structured around:
 
-## Versioning and Derivation Policy
-- **Canonical is the only source of truth.** Meaning changes must be deliberate
-  and accompanied by a version bump (file name pattern: `__vMAJOR.MINOR`).
-- **Derived artefacts are declared.** Each derived document must state the
-  canonical version it was derived from (e.g. “Derived from canonical v1.0”).
-- **Drift is treated as a failure mode.** If a derived artefact needs a change
-  that affects meaning, reconcile it back into canonical first.
+- The myth that "evidence leads to action"
+- Four structural inhibitors: responsibility without authority, risk discovery as career threat, compliance theatre, accountability diffusion
+- Why demonstration can paradoxically reduce action (deniability as organisational currency)
+- Five intervention patterns: mandatory response triggers, protected discovery, empiricism over assurance, no-ignore artifacts, executive risk ownership
+- Moral injury as a predictable outcome of forced inaction
+
+**Read:** [`articles/canonical/why-demonstrated-risk-is-ignored__v1.1.md`](articles/canonical/why-demonstrated-risk-is-ignored__v1.1.md)
+
+## The Research Backlog
+
+The backlog ([`PROJECT_BACKLOG_v2.md`](PROJECT_BACKLOG_v2.md)) operationalizes the essay's concepts into a structured research program. It's designed to be:
+
+- **Dependency-ordered** — explicit graph of what blocks what
+- **Tiered by feasibility** — separating desktop-completable work from work requiring field access
+- **Portfolio-oriented** — each issue produces a showable artifact
+- **Agent-compatible** — structured for human-AI collaboration
+
+### Tiers
+
+| Tier | Description | Issues |
+|------|-------------|--------|
+| **A: Foundations** | Desktop-completable foundational work | Definitions, codebook, literature map |
+| **B: Speculative** | Design artifacts, no field data required | Governance patterns, metrics spec |
+| **C: Future** | Requires organizational access | Evaluation designs, benchmark cases |
+
+### Keystone Artifact
+
+**Issue 2.1 — Structural Inhibitor Codebook** is marked as keystone. It bridges theory and measurement; most downstream work depends on having clear, codable inhibitor definitions.
+
+### Issues
+
+The backlog is tracked as GitHub Issues with labels for tier, epic, and status. Start with issues labeled `status:ready`.
+
+## Agent-Assisted Research
+
+Epic 7 documents how this work uses AI assistance — not as a novelty, but as a serious exploration of human-AI research collaboration:
+
+- **7.0** — Execution log documenting what agents did well and where human judgment was required
+- **7.1** — Skills library encoding research methods as reusable prompts
+- **7.2** — Guardrail checklist for detecting drift and hallucination
+- **7.3** — Confidence protocol for attention triage
+
+This produces a meta-artifact: honest documentation of AI's current capabilities and limits in research work.
 
 ## Repository Structure
-- `index.md`: calm landing page and navigation.
-- `articles/canonical/`: versioned canonical essay (source of truth).
-- `articles/public/`: citation-light edition(s) for broad circulation.
-- `articles/academic/`: executive and academic drafts.
-- `bibliography/`: references in APA Markdown plus `.bib` and `.ris`.
-- `CITATION.cff`: citation metadata.
-- `DESIGN_CHARTER.md`: publishing constraints (calm, accessible, no spectacle).
 
-## How to cite
-Metadata is in `CITATION.cff` (CC BY 4.0; see `LICENSE`). Suggested citation:
+```
+articles/
+  canonical/          # Versioned canonical essay (source of truth)
+  academic/           # Conference paper, PhD proposal, executive brief
+  public/             # Citation-light edition for broad circulation
+bibliography/         # References (APA markdown, .bib, .ris)
+docs/                 # Research artifacts (created as issues complete) [planned]
+skills/               # Agent skill definitions (created as 7.1 completes) [planned]
+PROJECT_BACKLOG_v2.md # Structured research backlog
+DESIGN_CHARTER.md     # Publishing constraints
+AGENTS.md             # Contributor guidance
+CITATION.cff          # Citation metadata
+```
 
-> Wedd, Adrian. (v1.1). *Why Demonstrated Risk Is Ignored in Large Organisations*.
-> CC BY 4.0.
+## Versioning
 
-## Contributing
-This repo optimises for readability, stability, and citability.
-Contributor guidance lives in `AGENTS.md`.
+- **Canonical is source of truth.** Changes require version bump (pattern: `__vMAJOR.MINOR`)
+- **Derived artifacts declare their source.** Each states which canonical version it derives from
+- **Drift is a failure mode.** Meaning changes reconcile back to canonical first
 
-## Local preview
-This site is built with Astro (no heavy client-side framework; text-first pages).
+## How to Cite
 
-- Install: `npm ci`
-- Dev server: `npm run dev`
-- Build: `npm run build`
-- Optional link check (after build): `npm run check:links`
+Metadata is in `CITATION.cff` (CC BY 4.0; see `LICENSE`).
 
-## GitHub Pages settings
-- Settings → Pages → **Build and deployment** → “GitHub Actions”
-- The workflow is in `.github/workflows/pages.yml`
+> Wedd, Adrian. (2025). *Why Demonstrated Risk Is Ignored in Large Organisations — and How to Fix That* (v1.1). https://github.com/adrianwedd/why-demonstrated-risk-is-ignored
+
+## Local Development
+
+Built with Astro (text-first, no heavy framework).
+
+```bash
+npm ci          # Install dependencies
+npm run dev     # Dev server
+npm run build   # Production build
+```
+
+## What This Demonstrates
+
+For those evaluating this as a portfolio piece, this work shows:
+
+- **Systems thinking** — treating organisational failure as structural, not moral
+- **Operationalization** — converting fuzzy concepts into measurable constructs
+- **Research methodology** — falsifiable propositions, inter-rater reliability, threats to validity
+- **Practical translation** — design patterns implementable without researcher presence
+- **Honest AI collaboration** — documenting what works and what doesn't
+
+## License
+
+CC BY 4.0 — see [`LICENSE`](LICENSE)

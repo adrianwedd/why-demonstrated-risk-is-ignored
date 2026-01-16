@@ -1,15 +1,19 @@
 cff-version: 1.2.0
-title: "Why Demonstrated Risk Is Ignored in Large Organisations"
+title: "Why Demonstrated Risk Is Ignored in Large Organisations — and How to Fix That"
 authors:
   - family-names: Wedd
     given-names: Adrian
 version: 1.1
+date-released: 2025-01-10
 license: CC-BY-4.0
+repository-code: https://github.com/adrianwedd/why-demonstrated-risk-is-ignored
 preferred-citation:
   type: article
   authors:
     - family-names: Wedd
       given-names: Adrian
-  title: "Why Demonstrated Risk Is Ignored in Large Organisations"
+  title: "Why Demonstrated Risk Is Ignored in Large Organisations — and How to Fix That"
   version: 1.1
+  year: 2025
   license: CC-BY-4.0
+  url: https://github.com/adrianwedd/why-demonstrated-risk-is-ignored
