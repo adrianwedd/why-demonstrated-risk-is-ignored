@@ -30,7 +30,11 @@ Task: Complete status:ready GitHub issues
 | #12 | Threats to Validity | Completed |
 | #13 | Governance Pattern Cards | Completed |
 | #14 | Empirical Validation vs Compliance | Completed |
+| #15 | Metrics Specification | Completed |
 | #21 | Agent Execution Log | This document |
+| #22 | Skills Library | Completed |
+| #23 | Guardrail Checklist | Completed |
+| #24 | Confidence Protocol | Completed |
 
 ---
 
@@ -235,6 +239,70 @@ Create pattern cards for 5-6 interventions with: Problem, Context, Forces, Solut
 **Generated:** Comprehensive document defining minimum bar for empirical validation, explicit exclusion list (what doesn't count), decision tree for validation vs theatre, validation levels hierarchy, self-assessment checklist with red/green flags, and transition guidance.
 
 **Assessment:** Strong practitioner-focused artifact. Agent drew on security assessment knowledge. Human should validate practical applicability and organisational context fit.
+
+---
+
+### Issue #15: Metrics Specification
+
+**Generated:** Complete metrics specification with 4 outcome metrics (time-to-decision, time-to-remediation, acceptance rate, recurrence rate) and 3 process metrics (escalation completion, evidence quality, psychological safety proxy). Each metric includes definition, calculation, data sources, targets, gaming risks, and mitigations.
+
+**Assessment:** Measurement-focused artifact well-suited to agent generation. Human should validate that metrics are actually collectible in their context.
+
+---
+
+### Issue #22: Skills Library
+
+**Generated:** 4 skills (inhibitor coding, literature clustering, pattern card generation, proposition generation). Each skill includes input spec, step-by-step instructions, output format, quality checks, and known failure modes.
+
+**Assessment:** Meta-level artifact documenting methods used in this session. Skills are derived from actual execution experience. Human should test with different agents/contexts.
+
+---
+
+### Issue #23: Guardrail Checklist
+
+**Generated:** 6-item checklist for detecting drift and hallucination (source specificity, confidence level, falsifier identification, verification step, scope check, hallucination detection). Each item has pass/fail criteria.
+
+**Assessment:** Quality control artifact. Designed to be applied to agent outputs including those in this session. Human should verify checklist catches actual problems.
+
+---
+
+### Issue #24: Confidence Protocol
+
+**Generated:** Protocol requiring 4 fields per output (confidence level, rationale, verification step, time estimate). Includes calibration criteria, examples, and flagging format.
+
+**Assessment:** Self-referential artifact — agent created a protocol that should be applied to agent outputs. Human should evaluate whether the protocol is useful in practice.
+
+---
+
+## Session Summary
+
+### Artifacts Created
+
+| Category | Count | Files |
+|----------|-------|-------|
+| Literature | 3 | inhibitor_grounding.md, related_work_map.md, bridge.md |
+| Patterns | 2 | governance_patterns.md, empirical_vs_compliance.md |
+| Meta/Process | 4 | threats_to_validity.md, agent_execution_log.md, guardrail_checklist.md, confidence_protocol.md |
+| Skills | 4 | inhibitor_coding.md, literature_clustering.md, pattern_card_generation.md, proposition_generation.md |
+| Evaluation | 1 | metrics_spec.md |
+| **Total** | **14** | |
+
+### Issues Completed
+
+- Tier A (Foundations): 8 issues closed (#9, #10, #11, #12, #21, #22, #23, #24)
+- Tier B (Speculative): 2 issues closed (#13, #14)
+- Tier B (Evaluation): 1 issue closed (#15)
+
+### Remaining Issues
+
+5 issues remain open, all marked `tier:c-future`:
+- #16: Evaluation Designs
+- #17: Research Threat Model
+- #18: Data Handling Architecture
+- #19: Benchmark Case Set
+- #20: Human vs Agent Comparison
+
+These are explicitly scoped as future work requiring field research.
 
 ---
 
