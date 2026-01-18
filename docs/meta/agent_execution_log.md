@@ -25,8 +25,11 @@ Task: Complete status:ready GitHub issues
 | Issue | Title | Outcome |
 |-------|-------|---------|
 | #9 | Literature Anchoring | Completed |
+| #10 | Four-Cluster Related Work Map | Completed |
+| #11 | Unifying Bridge Paragraph | Completed |
 | #12 | Threats to Validity | Completed |
 | #13 | Governance Pattern Cards | Completed |
+| #14 | Empirical Validation vs Compliance | Completed |
 | #21 | Agent Execution Log | This document |
 
 ---
@@ -206,6 +209,32 @@ Create pattern cards for 5-6 interventions with: Problem, Context, Forces, Solut
 1. **Use agent for:** First drafts, structure, comprehensiveness checks, cross-referencing
 2. **Require human for:** Verification, priority setting, practical feasibility, political context
 3. **Process:** Agent generates → Human verifies → Human extends with experience → Agent refines
+
+---
+
+## Additional Issues (Iteration 2)
+
+### Issue #10: Four-Cluster Related Work Map
+
+**Generated:** Complete related work map covering 4 literature clusters (psychological safety, whistleblowing, normalisation of deviance, security economics) with 6 key papers per cluster, analysis of explanatory power and gaps, and cross-cluster synthesis.
+
+**Assessment:** Agent systematically applied the cluster framework from the issue description. Gap analysis connects directly to inhibitor framework. Human review needed for citation accuracy and literature completeness.
+
+---
+
+### Issue #11: Unifying Bridge Paragraph
+
+**Generated:** Bridge paragraph positioning the work within existing literatures, acknowledging contributions from each tradition, identifying common thread, and motivating the unified model. Extended version provided for contexts requiring more detail.
+
+**Assessment:** Synthesis task well-suited to agent — connecting existing artifacts. Human should review for scholarly tone and positioning appropriateness.
+
+---
+
+### Issue #14: Empirical Validation vs Compliance
+
+**Generated:** Comprehensive document defining minimum bar for empirical validation, explicit exclusion list (what doesn't count), decision tree for validation vs theatre, validation levels hierarchy, self-assessment checklist with red/green flags, and transition guidance.
+
+**Assessment:** Strong practitioner-focused artifact. Agent drew on security assessment knowledge. Human should validate practical applicability and organisational context fit.
 
 ---
 
