@@ -304,6 +304,26 @@ Create pattern cards for 5-6 interventions with: Problem, Context, Forces, Solut
 
 These are explicitly scoped as future work requiring field research.
 
+### Scaffolds Created for Future Work
+
+In iteration 2, scaffold documents were created for all 5 future work issues:
+
+| Issue | Scaffold | Purpose |
+|-------|----------|---------|
+| #16 | `/docs/evaluation/evaluation_designs.md` | 3 candidate study designs |
+| #17 | `/docs/evaluation/research_threat_model.md` | 5 risk categories with mitigations |
+| #18 | `/docs/evaluation/data_handling_architecture.md` | Data lifecycle and security |
+| #19 | `/data/benchmark_cases_schema.md` | JSON schema and IRR protocol |
+| #20 | `/reports/eval_v0_protocol.md` | Evaluation dimensions and analysis plan |
+
+These scaffolds demonstrate research design thinking and provide ready-to-use templates when field access becomes available. The issues remain open because they require:
+- Organizational access
+- Research participants
+- Real case data
+- IRB/ethics approval
+
+**Agent cannot resolve these blocking dependencies.**
+
 ---
 
 ## Changelog
@@ -311,4 +331,5 @@ These are explicitly scoped as future work requiring field research.
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0 | 2025-01-19 | Initial draft |
+| 1.1 | 2025-01-19 | Added scaffold documentation for future work issues |
 
