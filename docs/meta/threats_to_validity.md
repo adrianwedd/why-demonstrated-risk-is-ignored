@@ -207,7 +207,7 @@ This document acknowledges methodological risks upfront. It will be expanded as 
 
 | Date | Threat | Category | Mitigation |
 |------|--------|----------|------------|
-| 2025-01-19 | Initial threats documented | All | Per-threat mitigations above |
+| 2026-01-18 | Initial threats documented | All | Per-threat mitigations above |
 
 ---
 
@@ -215,5 +215,5 @@ This document acknowledges methodological risks upfront. It will be expanded as 
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2025-01-19 | Initial draft |
+| 1.0 | 2026-01-18 | Initial draft |
 

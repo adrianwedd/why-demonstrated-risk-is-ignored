@@ -221,5 +221,5 @@ Results will be reported in `/reports/eval_v0.md` with:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2025-01-19 | Initial protocol scaffold |
+| 1.0 | 2026-01-18 | Initial protocol scaffold |
 

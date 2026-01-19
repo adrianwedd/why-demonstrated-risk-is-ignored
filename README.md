@@ -70,7 +70,7 @@ articles/
 bibliography/         # References (APA markdown, .bib, .ris)
 docs/                 # Research artifacts (created as issues complete)
 assets/               # Diagrams and visual artifacts
-skills/               # Agent skill definitions (created as 7.1 completes) [planned]
+skills/               # Agent skill definitions (inhibitor coding, literature clustering, etc.)
 PROJECT_BACKLOG_v2.md # Structured research backlog
 DESIGN_CHARTER.md     # Publishing constraints
 AGENTS.md             # Contributor guidance

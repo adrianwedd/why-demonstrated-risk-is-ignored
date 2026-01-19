@@ -206,7 +206,7 @@ For each metric: name, what it measures, target direction, and gaming risks.
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | [Date] | Initial draft |
+| 1.0 | 2026-01-18 | Initial draft |
 ```
 
 ---
@@ -278,5 +278,5 @@ PIPELINE STAGE: Decision, Outcome
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2025-01-19 | Initial draft |
+| 1.0 | 2026-01-18 | Initial draft |
 

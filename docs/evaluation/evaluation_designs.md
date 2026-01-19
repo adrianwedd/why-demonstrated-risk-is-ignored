@@ -186,5 +186,5 @@ Roll out interventions to multiple units sequentially; each unit serves as own c
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2025-01-19 | Initial scaffold |
+| 1.0 | 2026-01-18 | Initial scaffold |
 

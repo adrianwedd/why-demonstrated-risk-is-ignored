@@ -173,7 +173,7 @@ We anticipate that empirical testing may reveal:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | [Date] | Initial draft |
+| 1.0 | 2026-01-18 | Initial draft |
 ```
 
 ---
@@ -271,5 +271,5 @@ This proposition may not hold when:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2025-01-19 | Initial draft |
+| 1.0 | 2026-01-18 | Initial draft |
 

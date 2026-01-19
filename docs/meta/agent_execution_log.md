@@ -1,6 +1,6 @@
 # Agent Execution Log
 
-**Version:** 1.0
+**Version:** 1.2
 **Issue:** #21
 **Status:** Draft
 
@@ -12,7 +12,7 @@ This document provides an honest assessment of agent (AI) assistance in executin
 
 ---
 
-## Session: 2025-01-19
+## Session: 2026-01-18
 
 ### Context
 
@@ -285,7 +285,8 @@ Create pattern cards for 5-6 interventions with: Problem, Context, Forces, Solut
 | Meta/Process | 4 | threats_to_validity.md, agent_execution_log.md, guardrail_checklist.md, confidence_protocol.md |
 | Skills | 4 | inhibitor_coding.md, literature_clustering.md, pattern_card_generation.md, proposition_generation.md |
 | Evaluation | 1 | metrics_spec.md |
-| **Total** | **14** | |
+| Scaffolds | 5 | evaluation_designs.md, research_threat_model.md, data_handling_architecture.md, benchmark_cases_schema.md, eval_v0_protocol.md |
+| **Total** | **19** | |
 
 ### Issues Completed
 
@@ -330,6 +331,7 @@ These scaffolds demonstrate research design thinking and provide ready-to-use te
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2025-01-19 | Initial draft |
-| 1.1 | 2025-01-19 | Added scaffold documentation for future work issues |
+| 1.0 | 2026-01-18 | Initial draft |
+| 1.1 | 2026-01-18 | Added scaffold documentation for future work issues |
+| 1.2 | 2026-01-19 | Corrected artifact count to include scaffolds (14 → 19) |
 

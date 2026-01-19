@@ -227,5 +227,5 @@ When populated, benchmark cases will be stored at:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2025-01-19 | Initial schema scaffold |
+| 1.0 | 2026-01-18 | Initial schema scaffold |
 

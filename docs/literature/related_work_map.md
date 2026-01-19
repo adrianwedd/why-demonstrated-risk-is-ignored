@@ -259,5 +259,5 @@ All four literatures touch on the phenomenon of demonstrated risk being ignored,
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2025-01-19 | Initial draft |
+| 1.0 | 2026-01-18 | Initial draft |
 

@@ -74,5 +74,5 @@ A unified model must translate insight into implementable intervention. The gove
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2025-01-19 | Initial draft |
+| 1.0 | 2026-01-18 | Initial draft |
 
