@@ -9,7 +9,7 @@
     "check:links": "node scripts/check-links.mjs"
   },
   "dependencies": {
-    "astro": "^5.16.10",
+    "astro": "^6.1.6",
     "marked": "^17.0.1"
   }
 }
